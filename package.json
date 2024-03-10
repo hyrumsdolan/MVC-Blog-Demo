@@ -1,0 +1,17 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "A CMS-style blog site built with BunJS and Hono",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "bun run src/server.js",
+    "dev": "bun run src/server.js --hot"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "hono": "^3.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  }
+}
